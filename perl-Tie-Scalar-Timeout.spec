@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Tie
-%define		pnam	Scalar-Timeout
+%define	pdir	Tie
+%define	pnam	Scalar-Timeout
 Summary:	Tie::Scalar::Timeout - scalar variables that time out
 Summary(pl):	Tie::Scalar::Timeout - zmienne skalarne ulegaj±ce przedawnieniu
 Name:		perl-Tie-Scalar-Timeout
