@@ -3,13 +3,13 @@
 # _without_tests - do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Scalar-Timeout
+%define		pdir	Tie
+%define		pnam	Scalar-Timeout
 Summary:	Tie::Scalar::Timeout - Scalar variables that time out
 Summary(pl):	Tie::Scalar::Timeout - zmienne skalarne ulegaj±ce przedawnieniu
 Name:		perl-Tie-Scalar-Timeout
 Version:	1.3
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -49,5 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/%{pdir}/Scalar/*.pm
+%dir %{perl_sitelib}/Tie/Scalar
+%{perl_sitelib}/Tie/Scalar/*.pm
 %{_mandir}/man3/*
