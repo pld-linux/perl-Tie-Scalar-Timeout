@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	Scalar-Timeout
 Summary:	Tie::Scalar::Timeout - scalar variables that time out
-Summary(pl):	Tie::Scalar::Timeout - zmienne skalarne ulegaj±ce przedawnieniu
+Summary(pl.UTF-8):   Tie::Scalar::Timeout - zmienne skalarne ulegajÄ…ce przedawnieniu
 Name:		perl-Tie-Scalar-Timeout
 Version:	1.3.2
 Release:	2
@@ -26,10 +26,10 @@ reset (subject to an expiry policy) after a certain time and/or a
 certain number of uses. One possible application for this module might
 be to time out session variables in mod_perl programs.
 
-%description -l pl
-Ten modu³ pozwala wi±zanie zmiennej skalarnej, której warto¶æ bêdzie
-przywrócona (zgodnie z polis± przedawnienia) po danym czasie i/lub
-liczbie odwo³añ. Jednym z zastosowañ tego modu³u mo¿e byæ
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala wiÄ…zanie zmiennej skalarnej, ktÃ³rej wartoÅ›Ä‡ bÄ™dzie
+przywrÃ³cona (zgodnie z polisÄ… przedawnienia) po danym czasie i/lub
+liczbie odwoÅ‚aÅ„. Jednym z zastosowaÅ„ tego moduÅ‚u moÅ¼e byÄ‡
 przedawnianie zmiennych sesji w programach mod_perla.
 
 %prep
