@@ -8,13 +8,13 @@
 Summary:	Tie::Scalar::Timeout - scalar variables that time out
 Summary(pl.UTF-8):	Tie::Scalar::Timeout - zmienne skalarne ulegające przedawnieniu
 Name:		perl-Tie-Scalar-Timeout
-Version:	1.33
+Version:	2.101420
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8f743c3730d7edb27bd24c7f4fc153d2
+# Source0-md5:	7466a9d2e052556140003b49b612cef1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
