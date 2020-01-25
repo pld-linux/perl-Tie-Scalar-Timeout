@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	Scalar-Timeout
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::Scalar::Timeout - scalar variables that time out
 Summary(pl.UTF-8):	Tie::Scalar::Timeout - zmienne skalarne ulegające przedawnieniu
 Name:		perl-Tie-Scalar-Timeout
